@@ -9,7 +9,6 @@ const Filter = ({ filter, addFilter }) => (
       name="filter"
       className={css.filterInput}
       value={filter}
-      onChange={e => addFilter(e.currentTarget.value)}
       placeholder="Enter name"
     />
   </div>
