@@ -10,6 +10,7 @@ const Filter = ({ filter, addFilter }) => (
       className={css.filterInput}
       value={filter}
       placeholder="Enter name"
+      onChange={e => addFilter(e.target.value)}
     />
   </div>
 );
